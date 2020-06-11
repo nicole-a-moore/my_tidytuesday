@@ -36,7 +36,7 @@ beautiful_plot <- ggplot(firsts, aes(x = year_bin, fill = category)) +
   theme_bw() +
   scale_x_continuous(expand = c(0.02, 0.02), breaks = append(breaks-5, 2015), labels = append(as.character(breaks), "2020")) +
   scale_y_continuous(expand = c(0.02,0), limits = c(0, 150)) +
-  labs(title = "Breaking the Colour Barrier:", subtitle = "A timeline of African American first achievements", fill = "A first accomplishment in:", x = "Year", caption = "Data from https://en.wikipedia.org/wiki/List_of_African-American_firsts") +
+  labs(title = "Breaking the Colour Barrier:", subtitle = "A timeline of African American first achievements", fill = "A first achievement in:", x = "Year", caption = "Data from https://en.wikipedia.org/wiki/List_of_African-American_firsts") +
   theme(plot.title=element_text(size = 30, 
                                 margin = margin(t = 30, r = 30, b = 7), 
                                 hjust = 0.05, family = "Times"),
