@@ -1,1 +1,2 @@
-# It's #TidyTuesday y'all
+# my_tidytuesday
+It's #TidyTuesday, y'all.
